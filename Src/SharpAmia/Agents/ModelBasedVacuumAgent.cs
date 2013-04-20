@@ -12,7 +12,10 @@
             if (perception.Status == VacuumStatus.Dirty)
                 return VacuumAction.Suck;
 
-            throw new NotImplementedException();
+            if (perception.Location == VacuumLocation.A)
+                return VacuumAction.Right;
+
+            return VacuumAction.Left;
         }
     }
 }
