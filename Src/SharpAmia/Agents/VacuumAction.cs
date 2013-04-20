@@ -10,6 +10,6 @@
         NoOp,
         Suck,
         Left,
-        Rigth
+        Right
     }
 }

@@ -18,7 +18,24 @@
 
             var result = agent.GetAction(perception);
 
-            Assert.IsTrue(result == VacuumAction.NoOp || result == VacuumAction.Left || result == VacuumAction.Rigth || result == VacuumAction.Suck);
+            Assert.IsTrue(result == VacuumAction.NoOp || result == VacuumAction.Left || result == VacuumAction.Right || result == VacuumAction.Suck);
+        }
+
+        [TestMethod]
+        public void GetOneHundredActions()
+        {
+            RandomVacuumAgent agent = new RandomVacuumAgent();
+            VacuumPerception perception = new VacuumPerception(VacuumLocation.A, VacuumLocationState.Clean);
+
+            IList<VacuumAction> actions = new List<VacuumAction>();
+
+            for (int k = 0; k < 100; k++)
+                actions.Add(agent.GetAction(perception));
+
+            Assert.IsTrue(actions.Any(action => action == VacuumAction.NoOp));
+            Assert.IsTrue(actions.Any(action => action == VacuumAction.Suck));
+            Assert.IsTrue(actions.Any(action => action == VacuumAction.Left));
+            Assert.IsTrue(actions.Any(action => action == VacuumAction.Right));
         }
     }
 }
