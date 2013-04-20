@@ -36,11 +36,14 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agents\ModelBasedVacuumAgentTests.cs" />
     <Compile Include="Agents\RandomVacuumAgentTests.cs" />
     <Compile Include="Agents\ReflexVacuumAgentTests.cs" />
+    <Compile Include="Agents\VacuumPerceptionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
