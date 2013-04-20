@@ -27,11 +27,28 @@
         public void ExecuteAction(VacuumAgent agent, VacuumAction action)
         {
             if (action == VacuumAction.Suck)
+            {
                 if (this.state[agent.Location] == VacuumStatus.Dirty)
                 {
                     agent.Performance += 10;
                     this.state[agent.Location] = VacuumStatus.Clean;
                 }
+                return;
+            }
+
+            if (action == VacuumAction.Left)
+            {
+                agent.Performance -= 1;
+                agent.Location = VacuumLocation.A;
+                return;
+            }
+
+            if (action == VacuumAction.Right)
+            {
+                agent.Performance -= 1;
+                agent.Location = VacuumLocation.B;
+                return;
+            }
         }
     }
 }
