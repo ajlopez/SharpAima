@@ -12,7 +12,7 @@
 
         public override VacuumAction GetAction(VacuumPerception perception)
         {
-            return actions[random.Next(actions.Length)];
+            return actions[this.random.Next(actions.Length)];
         }
     }
 }

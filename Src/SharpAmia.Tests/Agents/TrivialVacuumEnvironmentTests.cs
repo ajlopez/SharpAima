@@ -23,5 +23,20 @@
             Assert.AreEqual(VacuumLocation.A, result.Location);
             Assert.AreEqual(VacuumStatus.Clean, result.Status);
         }
+
+        [TestMethod]
+        public void ExecuteSuckActionOnDirtyStatus()
+        {
+            TrivialVacuumEnvironment environment = new TrivialVacuumEnvironment();
+            environment.SetStatus(VacuumLocation.A, VacuumStatus.Dirty);
+            VacuumAgent agent = new RandomVacuumAgent();
+            agent.Location = VacuumLocation.A;
+
+            environment.ExecuteAction(agent, VacuumAction.Suck);
+
+            Assert.AreEqual(VacuumLocation.A, agent.Location);
+            Assert.AreEqual(10, agent.Performance);
+            Assert.AreEqual(VacuumStatus.Clean, environment.GetStatus(VacuumLocation.A));
+        }
     }
 }

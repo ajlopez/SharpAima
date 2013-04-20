@@ -1,26 +1,5 @@
 <stylecopresultscache>
   <version>10</version>
-  <project key="-1363427025">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
-  <sourcecode name="VacuumPerception.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>04/20/2013 16:23:11</timestamp>
-      <milliseconds>824</milliseconds>
-    </settings>
-    <timestamp>04/20/2013 16:30:43</timestamp>
-    <milliseconds>705</milliseconds>
-    <violations />
-  </sourcecode>
-  <sourcecode name="RandomVacuumAgent.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>04/20/2013 16:23:11</timestamp>
-      <milliseconds>824</milliseconds>
-    </settings>
-    <timestamp>04/20/2013 16:28:33</timestamp>
-    <milliseconds>367</milliseconds>
-    <violations />
-  </sourcecode>
   <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>04/20/2013 16:23:11</timestamp>
@@ -28,6 +7,114 @@
     </settings>
     <timestamp>04/20/2013 16:18:36</timestamp>
     <milliseconds>963</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ModelBasedVacuumAgent.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 17:23:26</timestamp>
+    <milliseconds>638</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReflexVacuumAgent.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 17:03:07</timestamp>
+    <milliseconds>297</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TableDrivenVacuumAgent.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 18:18:00</timestamp>
+    <milliseconds>172</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VacuumAction.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:39:20</timestamp>
+    <milliseconds>850</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VacuumLocation.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:34:43</timestamp>
+    <milliseconds>817</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VacuumAgent.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 18:53:57</timestamp>
+    <milliseconds>986</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="VacuumPerception.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 17:39:55</timestamp>
+    <milliseconds>423</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VacuumStatus.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:43:20</timestamp>
+    <milliseconds>383</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VacuumPerceptionList.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 18:11:30</timestamp>
+    <milliseconds>228</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TrivialVacuumEnvironment.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 18:56:12</timestamp>
+    <milliseconds>425</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-1363427025">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="RandomVacuumAgent.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 18:56:01</timestamp>
+    <milliseconds>818</milliseconds>
     <violations />
   </sourcecode>
 </stylecopresultscache>

@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SharpAmia.Agents
+﻿namespace SharpAmia.Agents
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
     public class TrivialVacuumEnvironment
     {
-        IDictionary<VacuumLocation, VacuumStatus> state = new Dictionary<VacuumLocation, VacuumStatus>();
+        private IDictionary<VacuumLocation, VacuumStatus> state = new Dictionary<VacuumLocation, VacuumStatus>();
 
         public VacuumPerception GetPerception(VacuumAgent agent)
         {
@@ -16,7 +16,22 @@ namespace SharpAmia.Agents
 
         public void SetStatus(VacuumLocation location, VacuumStatus status)
         {
-            state[location] = status;
+            this.state[location] = status;
+        }
+
+        public VacuumStatus GetStatus(VacuumLocation location)
+        {
+            return this.state[location];
+        }
+
+        public void ExecuteAction(VacuumAgent agent, VacuumAction action)
+        {
+            if (action == VacuumAction.Suck)
+                if (this.state[agent.Location] == VacuumStatus.Dirty)
+                {
+                    agent.Performance += 10;
+                    this.state[agent.Location] = VacuumStatus.Clean;
+                }
         }
     }
 }

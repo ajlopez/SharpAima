@@ -7,8 +7,10 @@
 
     public abstract class VacuumAgent
     {
-        public abstract VacuumAction GetAction(VacuumPerception perception);
-
         public VacuumLocation Location { get; set; }
+
+        public int Performance { get; set; }
+
+        public abstract VacuumAction GetAction(VacuumPerception perception);
     }
 }
