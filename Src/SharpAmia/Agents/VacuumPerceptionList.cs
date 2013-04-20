@@ -17,6 +17,11 @@
                 this.perceptions.Add(perception);
         }
 
+        public void Add(VacuumPerception perception)
+        {
+            this.perceptions.Add(perception);
+        }
+
         public override bool Equals(object obj)
         {
             if (obj == null)
