@@ -22,14 +22,14 @@
         }
 
         [TestMethod]
-        public void GetActionWhenLocationIsClean()
+        public void GetActionWhenLocationAreClean()
         {
             ModelBasedVacuumAgent agent = new ModelBasedVacuumAgent();
             VacuumPerception perception1 = new VacuumPerception(VacuumLocation.A, VacuumStatus.Clean);
             VacuumPerception perception2 = new VacuumPerception(VacuumLocation.B, VacuumStatus.Clean);
 
             Assert.AreEqual(VacuumAction.Right, agent.GetAction(perception1));
-            Assert.AreEqual(VacuumAction.Left, agent.GetAction(perception2));
+            Assert.AreEqual(VacuumAction.NoOp, agent.GetAction(perception2));
         }
     }
 }
