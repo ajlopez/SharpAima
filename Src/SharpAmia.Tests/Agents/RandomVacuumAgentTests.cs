@@ -14,7 +14,7 @@
         public void GetOneAction()
         {
             RandomVacuumAgent agent = new RandomVacuumAgent();
-            VacuumPerception perception = new VacuumPerception(VacuumLocation.A, VacuumLocationState.Clean);
+            VacuumPerception perception = new VacuumPerception(VacuumLocation.A, VacuumStatus.Clean);
 
             var result = agent.GetAction(perception);
 
@@ -25,7 +25,7 @@
         public void GetOneHundredActions()
         {
             RandomVacuumAgent agent = new RandomVacuumAgent();
-            VacuumPerception perception = new VacuumPerception(VacuumLocation.A, VacuumLocationState.Clean);
+            VacuumPerception perception = new VacuumPerception(VacuumLocation.A, VacuumStatus.Clean);
 
             IList<VacuumAction> actions = new List<VacuumAction>();
 

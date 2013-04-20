@@ -5,7 +5,7 @@
     using System.Linq;
     using System.Text;
 
-    public enum VacuumLocationState
+    public enum VacuumStatus
     {
         Clean,
         Dirty

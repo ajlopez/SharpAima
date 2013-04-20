@@ -48,7 +48,7 @@
     <Compile Include="Agents\RandomVacuumAgent.cs" />
     <Compile Include="Agents\VacuumAction.cs" />
     <Compile Include="Agents\VacuumLocation.cs" />
-    <Compile Include="Agents\VacuumLocationState.cs" />
+    <Compile Include="Agents\VacuumStatus.cs" />
     <Compile Include="Agents\VacuumPerception.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

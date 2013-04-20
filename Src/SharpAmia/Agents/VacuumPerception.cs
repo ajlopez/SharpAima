@@ -7,7 +7,7 @@
 
     public class VacuumPerception
     {
-        public VacuumPerception(VacuumLocation location, VacuumLocationState state)
+        public VacuumPerception(VacuumLocation location, VacuumStatus state)
         {
         }
     }
