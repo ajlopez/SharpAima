@@ -1,0 +1,33 @@
+<stylecopresultscache>
+  <version>10</version>
+  <project key="-1363427025">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="VacuumPerception.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:30:43</timestamp>
+    <milliseconds>705</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="RandomVacuumAgent.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:28:33</timestamp>
+    <milliseconds>367</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:11</timestamp>
+      <milliseconds>824</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:18:36</timestamp>
+    <milliseconds>963</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

@@ -38,7 +38,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agents\RandomVacuumAgentTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharpAmia\SharpAmia.csproj">
+      <Project>{496FA914-FC50-4BCD-B2F1-CCC074705353}</Project>
+      <Name>SharpAmia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
