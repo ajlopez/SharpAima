@@ -10,6 +10,7 @@
         NoOp,
         Suck,
         Left,
-        Right
+        Right,
+        Forward
     }
 }
