@@ -43,6 +43,7 @@
     <Compile Include="Agents\ModelBasedVacuumAgentTests.cs" />
     <Compile Include="Agents\RandomVacuumAgentTests.cs" />
     <Compile Include="Agents\ReflexVacuumAgentTests.cs" />
+    <Compile Include="Agents\VacuumPerceptionListTests.cs" />
     <Compile Include="Agents\VacuumPerceptionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
