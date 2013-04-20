@@ -38,6 +38,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agents\ModelBasedAgentTests.cs" />
     <Compile Include="Agents\RandomVacuumAgentTests.cs" />
     <Compile Include="Agents\ReflexVacuumAgentTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
