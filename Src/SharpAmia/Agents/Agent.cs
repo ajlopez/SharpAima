@@ -5,12 +5,12 @@
     using System.Linq;
     using System.Text;
 
-    public abstract class VacuumAgent
+    public abstract class Agent<TLocation, TPerception, TAction>
     {
-        public VacuumLocation Location { get; set; }
+        public TLocation Location { get; set; }
 
         public int Performance { get; set; }
 
-        public abstract VacuumAction GetAction(VacuumPerception perception);
+        public abstract TAction GetAction(TPerception perception);
     }
 }

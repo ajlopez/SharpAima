@@ -51,11 +51,12 @@
     <Compile Include="Agents\TableDrivenVacuumAgent.cs" />
     <Compile Include="Agents\TrivialVacuumEnvironment.cs" />
     <Compile Include="Agents\VacuumAction.cs" />
-    <Compile Include="Agents\VacuumAgent.cs" />
+    <Compile Include="Agents\Agent.cs" />
     <Compile Include="Agents\VacuumLocation.cs" />
     <Compile Include="Agents\VacuumPerceptionList.cs" />
     <Compile Include="Agents\VacuumStatus.cs" />
     <Compile Include="Agents\VacuumPerception.cs" />
+    <Compile Include="Agents\XYAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

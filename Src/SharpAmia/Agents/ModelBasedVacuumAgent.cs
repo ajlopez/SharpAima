@@ -5,7 +5,7 @@
     using System.Linq;
     using System.Text;
 
-    public class ModelBasedVacuumAgent : VacuumAgent
+    public class ModelBasedVacuumAgent : Agent<VacuumLocation, VacuumPerception, VacuumAction>
     {
         private IDictionary<VacuumLocation, VacuumStatus> state = new Dictionary<VacuumLocation, VacuumStatus>();
 

@@ -15,7 +15,7 @@
         {
             TrivialVacuumEnvironment environment = new TrivialVacuumEnvironment();
             environment.SetStatus(VacuumLocation.A, VacuumStatus.Clean);
-            VacuumAgent agent = new RandomVacuumAgent();
+            var agent = new RandomVacuumAgent();
             agent.Location = VacuumLocation.A;
 
             var result = environment.GetPerception(agent);
@@ -29,7 +29,7 @@
         {
             TrivialVacuumEnvironment environment = new TrivialVacuumEnvironment();
             environment.SetStatus(VacuumLocation.A, VacuumStatus.Dirty);
-            VacuumAgent agent = new RandomVacuumAgent();
+            var agent = new RandomVacuumAgent();
             agent.Location = VacuumLocation.A;
 
             environment.ExecuteAction(agent, VacuumAction.Suck);
@@ -44,7 +44,7 @@
         {
             TrivialVacuumEnvironment environment = new TrivialVacuumEnvironment();
             environment.SetStatus(VacuumLocation.A, VacuumStatus.Clean);
-            VacuumAgent agent = new RandomVacuumAgent();
+            var agent = new RandomVacuumAgent();
             agent.Location = VacuumLocation.A;
 
             environment.ExecuteAction(agent, VacuumAction.Suck);
@@ -59,7 +59,7 @@
         {
             TrivialVacuumEnvironment environment = new TrivialVacuumEnvironment();
             environment.SetStatus(VacuumLocation.A, VacuumStatus.Clean);
-            VacuumAgent agent = new RandomVacuumAgent();
+            var agent = new RandomVacuumAgent();
             agent.Location = VacuumLocation.A;
 
             environment.ExecuteAction(agent, VacuumAction.Right);
@@ -74,7 +74,7 @@
         {
             TrivialVacuumEnvironment environment = new TrivialVacuumEnvironment();
             environment.SetStatus(VacuumLocation.A, VacuumStatus.Clean);
-            VacuumAgent agent = new RandomVacuumAgent();
+            var agent = new RandomVacuumAgent();
             agent.Location = VacuumLocation.B;
 
             environment.ExecuteAction(agent, VacuumAction.Left);

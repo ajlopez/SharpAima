@@ -5,7 +5,7 @@
     using System.Linq;
     using System.Text;
 
-    public class ReflexVacuumAgent : VacuumAgent
+    public class ReflexVacuumAgent : Agent<VacuumLocation, VacuumPerception, VacuumAction>
     {
         public override VacuumAction GetAction(VacuumPerception perception)
         {

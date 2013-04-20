@@ -9,7 +9,7 @@
     {
         private IDictionary<VacuumLocation, VacuumStatus> state = new Dictionary<VacuumLocation, VacuumStatus>();
 
-        public VacuumPerception GetPerception(VacuumAgent agent)
+        public VacuumPerception GetPerception(Agent<VacuumLocation, VacuumPerception, VacuumAction> agent)
         {
             return new VacuumPerception(agent.Location, this.state[agent.Location]);
         }
@@ -24,7 +24,7 @@
             return this.state[location];
         }
 
-        public void ExecuteAction(VacuumAgent agent, VacuumAction action)
+        public void ExecuteAction(Agent<VacuumLocation, VacuumPerception, VacuumAction> agent, VacuumAction action)
         {
             if (action == VacuumAction.Suck)
             {

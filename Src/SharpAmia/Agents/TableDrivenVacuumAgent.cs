@@ -5,7 +5,7 @@
     using System.Linq;
     using System.Text;
 
-    public class TableDrivenVacuumAgent : VacuumAgent
+    public class TableDrivenVacuumAgent : Agent<VacuumLocation, VacuumPerception, VacuumAction>
     {
         private IDictionary<VacuumPerceptionList, VacuumAction> table;
         private VacuumPerceptionList perceptions = new VacuumPerceptionList();
