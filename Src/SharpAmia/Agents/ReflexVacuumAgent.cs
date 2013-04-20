@@ -5,9 +5,9 @@
     using System.Linq;
     using System.Text;
 
-    public class ReflexVacuumAgent
+    public class ReflexVacuumAgent : VacuumAgent
     {
-        public VacuumAction GetAction(VacuumPerception perception)
+        public override VacuumAction GetAction(VacuumPerception perception)
         {
             if (perception.Status == VacuumStatus.Dirty)
                 return VacuumAction.Suck;
