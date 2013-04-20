@@ -7,8 +7,13 @@
 
     public class VacuumPerception
     {
-        public VacuumPerception(VacuumLocation location, VacuumStatus state)
+        private VacuumStatus status;
+
+        public VacuumPerception(VacuumLocation location, VacuumStatus status)
         {
+            this.status = status;
         }
+
+        public VacuumStatus Status { get { return this.status; } }
     }
 }

@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agents\RandomVacuumAgent.cs" />
+    <Compile Include="Agents\ReflexVacuumAgent.cs" />
     <Compile Include="Agents\VacuumAction.cs" />
     <Compile Include="Agents\VacuumLocation.cs" />
     <Compile Include="Agents\VacuumStatus.cs" />

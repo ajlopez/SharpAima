@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agents\RandomVacuumAgentTests.cs" />
+    <Compile Include="Agents\ReflexVacuumAgentTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
