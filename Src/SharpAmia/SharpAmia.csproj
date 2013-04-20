@@ -49,6 +49,7 @@
     <Compile Include="Agents\RandomVacuumAgent.cs" />
     <Compile Include="Agents\ReflexVacuumAgent.cs" />
     <Compile Include="Agents\TableDrivenVacuumAgent.cs" />
+    <Compile Include="Agents\TrivialVacuumEnvironment.cs" />
     <Compile Include="Agents\VacuumAction.cs" />
     <Compile Include="Agents\VacuumAgent.cs" />
     <Compile Include="Agents\VacuumLocation.cs" />
