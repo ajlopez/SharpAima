@@ -10,6 +10,9 @@ Work in Progress
 
 ## References
 
-[aima-python](https://code.google.com/p/aima-python/)
+- [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/)
+- [Online Code Repository](http://aima.cs.berkeley.edu/code.html)
+- [aima-python](https://code.google.com/p/aima-python/) by Peter Norvig
+- [aima-java](https://code.google.com/p/aima-python/) by Ravi Mohan
 
 
