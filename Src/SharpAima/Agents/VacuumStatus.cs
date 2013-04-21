@@ -1,15 +1,13 @@
-﻿namespace SharpAmia.Agents
+﻿namespace SharpAima.Agents
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
 
-    public enum XYAction
+    public enum VacuumStatus
     {
-        NoOp,
-        Left,
-        Right,
-        Forward
+        Clean,
+        Dirty
     }
 }

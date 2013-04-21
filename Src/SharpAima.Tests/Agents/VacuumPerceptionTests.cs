@@ -1,11 +1,11 @@
-﻿namespace SharpAmia.Tests.Agents
+﻿namespace SharpAima.Tests.Agents
 {
     using System;
-    using System.Text;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Text;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using SharpAmia.Agents;
+    using SharpAima.Agents;
 
     [TestClass]
     public class VacuumPerceptionTests

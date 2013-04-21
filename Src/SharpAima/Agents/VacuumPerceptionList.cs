@@ -1,4 +1,4 @@
-﻿namespace SharpAmia.Agents
+﻿namespace SharpAima.Agents
 {
     using System;
     using System.Collections.Generic;

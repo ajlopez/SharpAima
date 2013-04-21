@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{496FA914-FC50-4BCD-B2F1-CCC074705353}</ProjectGuid>
+    <ProjectGuid>{2DC1481B-C227-44D8-8DD7-4FC9F116C469}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SharpAmia</RootNamespace>
-    <AssemblyName>SharpAmia</AssemblyName>
+    <RootNamespace>SharpAima.Tests</RootNamespace>
+    <AssemblyName>SharpAima.Tests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,35 +31,31 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agents\ModelBasedVacuumAgent.cs" />
-    <Compile Include="Agents\RandomVacuumAgent.cs" />
-    <Compile Include="Agents\ReflexVacuumAgent.cs" />
-    <Compile Include="Agents\TableDrivenVacuumAgent.cs" />
-    <Compile Include="Agents\TrivialVacuumEnvironment.cs" />
-    <Compile Include="Agents\VacuumAction.cs" />
-    <Compile Include="Agents\Agent.cs" />
-    <Compile Include="Agents\VacuumLocation.cs" />
-    <Compile Include="Agents\VacuumPerceptionList.cs" />
-    <Compile Include="Agents\VacuumStatus.cs" />
-    <Compile Include="Agents\VacuumPerception.cs" />
-    <Compile Include="Agents\XYAction.cs" />
+    <Compile Include="Agents\ModelBasedVacuumAgentTests.cs" />
+    <Compile Include="Agents\RandomVacuumAgentTests.cs" />
+    <Compile Include="Agents\ReflexVacuumAgentTests.cs" />
+    <Compile Include="Agents\TableDrivenVacuumAgentTests.cs" />
+    <Compile Include="Agents\TrivialVacuumEnvironmentTests.cs" />
+    <Compile Include="Agents\VacuumPerceptionListTests.cs" />
+    <Compile Include="Agents\VacuumPerceptionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\SharpAima\SharpAima.csproj">
+      <Project>{496FA914-FC50-4BCD-B2F1-CCC074705353}</Project>
+      <Name>SharpAima</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

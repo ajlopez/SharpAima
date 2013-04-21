@@ -1,0 +1,78 @@
+<stylecopresultscache>
+  <version>10</version>
+  <sourcecode name="RandomVacuumAgentTests.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:20</timestamp>
+      <milliseconds>677</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:43:20</timestamp>
+    <milliseconds>305</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReflexVacuumAgentTests.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:20</timestamp>
+      <milliseconds>677</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:53:59</timestamp>
+    <milliseconds>663</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:20</timestamp>
+      <milliseconds>677</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 16:19:09</timestamp>
+    <milliseconds>206</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ModelBasedVacuumAgentTests.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:20</timestamp>
+      <milliseconds>677</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 19:30:42</timestamp>
+    <milliseconds>873</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TableDrivenVacuumAgentTests.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:20</timestamp>
+      <milliseconds>677</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 19:30:42</timestamp>
+    <milliseconds>814</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TrivialVacuumEnvironmentTests.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:20</timestamp>
+      <milliseconds>677</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 19:30:42</timestamp>
+    <milliseconds>936</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VacuumPerceptionListTests.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:20</timestamp>
+      <milliseconds>677</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 19:30:42</timestamp>
+    <milliseconds>737</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="1656954066">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="VacuumPerceptionTests.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/20/2013 16:23:20</timestamp>
+      <milliseconds>677</milliseconds>
+    </settings>
+    <timestamp>04/20/2013 19:31:02</timestamp>
+    <milliseconds>271</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

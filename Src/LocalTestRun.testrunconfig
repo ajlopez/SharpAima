@@ -3,7 +3,7 @@
   <Description>This is a default test run configuration for a local test run.</Description>
   <CodeCoverage enabled="true">
     <Regular>
-      <CodeCoverageItem binaryFile="SharpAmia\bin\Debug\SharpAmia.dll" pdbFile="SharpAmia\bin\Debug\SharpAmia.pdb" instrumentInPlace="true" />
+      <CodeCoverageItem binaryFile="SharpAima\bin\Debug\SharpAima.dll" pdbFile="SharpAima\bin\Debug\SharpAima.pdb" instrumentInPlace="true" />
     </Regular>
   </CodeCoverage>
   <TestTypeSpecific>

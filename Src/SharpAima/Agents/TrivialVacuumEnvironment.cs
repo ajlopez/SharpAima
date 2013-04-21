@@ -1,4 +1,4 @@
-﻿namespace SharpAmia.Agents
+﻿namespace SharpAima.Agents
 {
     using System;
     using System.Collections.Generic;
@@ -33,6 +33,7 @@
                     agent.Performance += 10;
                     this.state[agent.Location] = VacuumStatus.Clean;
                 }
+
                 return;
             }
 
